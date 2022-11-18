@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de170918-5496-4f2c-91ac-eae203a74427">
+  <name>ПособиеДляНачинающих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пособие для начинающих</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="49d4c103-eb82-44c3-aff0-ea893553d4c3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2bf44fd4-cbc5-4c15-bf6c-2f9d9b3942fd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4e402c94-65bc-4621-83e3-210a391fdb97"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="704e2593-623a-45b9-9681-63374c9fa67f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ca41cfc5-545f-468c-8e81-58f2e8d4d65f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b5bf29d0-b1c8-4fc7-8e9c-9d4b4c5b57d1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="efd74f3c-ef69-4b25-a97e-6603c32aa602"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="2f681079-93bb-44d6-be98-cb43b17277fd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.Зарплата</commonPictures>
+  <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.Материалы</commonPictures>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Материалы</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+</mdclass:Configuration>
